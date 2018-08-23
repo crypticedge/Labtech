@@ -2,7 +2,7 @@
 ### to a unique value based off a hash of the computer name
 
 ## Look at the ScreenConnect service name on computer & stop the service.
-$serverid = "60a06214111b8797"
+$serverid = "CHANGEME"
 Stop-Service -displayname "ScreenConnect Client ($serverid)"
 
 ## Find current GUID to replace
