@@ -6,4 +6,5 @@ reg delete HKLM\Software\LabTech\Service\ /v MAC /f
 
 reg delete HKLM\Software\LabTech\Service\ /v Password /f
 
+net start LTService
 net start LTSvcMon
